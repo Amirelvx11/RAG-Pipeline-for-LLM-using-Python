@@ -4,9 +4,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-OPENROUTER_URL = os.getenv("OPENROUTER_URL", "https://openrouter.ai/api/v1/chat/completions")
+#from enviroment file
+OPENROUTER_URL = os.getenv("OPENROUTER_URL")
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
+#simple free llm models
 MODEL_FALLBACKS = [
     "z-ai/glm-4.5-air:free",
     "openrouter/andromeda-alpha",
