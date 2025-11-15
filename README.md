@@ -1,7 +1,7 @@
-# Salona Bot — Instagram DM Simulator (FastAPI + RAG + OpenRouter Free LLM)
+# Instagram DM Simulator (FastAPI + RAG + OpenRouter Free LLM)
 
 ## 📘 Overview
-**Salona Bot** is a technical task project that implements a simulated Instagram DM assistant using **FastAPI**, **SQLite**, and **Retrieval‑Augmented Generation (RAG)** combined with a **Free LLM on OpenRouter**.  
+**RAG Pipeline for LLM** is a technical task project that implements a simulated Instagram DM assistant using **FastAPI**, **SQLite**, and **Retrieval‑Augmented Generation (RAG)** combined with a **Free LLM on OpenRouter**.  
 The bot retrieves product information from a local database and generates intelligent, context‑aware replies in **Persian**.
 
 ---
