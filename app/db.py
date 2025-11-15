@@ -1,7 +1,7 @@
 import sqlite3
 from pathlib import Path
 
-DB_PATH = Path(__file__).resolve().parent.parent / "db" / "app_data.sqlite"
+DB_PATH = Path(__file__).resolve().parent.parent / "db" / "application_data.sqlite"
 
 def get_connection():
     """Establish SQLite connection and return Row factory cursor."""
