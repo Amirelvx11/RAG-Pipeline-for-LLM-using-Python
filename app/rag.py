@@ -17,9 +17,10 @@ def get_product_context(query: str):
 
 
 async def rag_pipeline(query: str) -> str:
-    """ retrieve product info from SQLite - build prompt and send to free LLM model. """
+    """ retrieve product info from our db - build prompt and send to free LLM model. """
     context = get_product_context(query)
 
+    # you can customize your prompt based on what you need
     if not context:
         prompt = f"پرسش کاربر: {query}\nهیچ محصولی در دیتابیس یافت نشد. پاسخ عمومی بده."
         return await query_openrouter(prompt)
