@@ -2,6 +2,7 @@
 
 from app.db import get_connection
 
+# example records for db populating - you can change that with what you exactly want (this method is not recommended for production use)
 records = [
 ("گوشی سامسونگ Galaxy A54", "دارای صفحه‌نمایش سوپر آمولد و دوربین ۵۰ مگاپیکسل.", 22000000),
 ("گوشی سامسونگ Galaxy S24 Ultra", "پرچمدار قدرتمند با چیپ Snapdragon 8 Gen 3.", 72000000),
